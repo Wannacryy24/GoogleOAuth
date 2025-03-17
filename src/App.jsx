@@ -31,7 +31,7 @@ function App() {
     }
   },[authInfo]);
 
-  
+
   return (
     <>
       {
@@ -49,7 +49,7 @@ function App() {
           <div>
             <h3>Welcome, {authInfo.name}</h3>
             <img src={authInfo.picture} 
-            alt="User Profile Picture"
+            alt="User Profile"
             referrerPolicy="no-referrer"/>
             {/* 
               image was not showing but i when i was copying drc from inspecting it and directly pasing it in url then it was showing image 
@@ -72,4 +72,3 @@ function App() {
 
 export default App
 
-{/* <img alt src="https://lh3.googleusercontent.com/a/ACg8ocL8CiUVzDV5b_74DnAxtrDqfn7wqIAhnTosaWSm27HFVB77NOPw=s96-c"> */}
